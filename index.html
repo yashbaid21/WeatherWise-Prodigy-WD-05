@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherWise</title>
+  <link rel="icon" href="cloud-bolt-solid.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>WeatherWise</h1>
+    <div class="input-group">
+      <input type="text" id="locationInput" placeholder="Enter a location">
+      <button onclick="getWeatherByLocation()">Get Weather</button>
+    </div>
+    <button onclick="getCurrentLocationWeather()">Get Current Location Weather</button>
+    <div class="weather-info" id="weatherInfo">
+      <!-- Weather data will be displayed here -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
